@@ -15,6 +15,11 @@
   box-sizing: border-box;
   font-family: var(--font-familly-paragraph);
 }
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
 .heading1 {
   font-family: var(--font-family-heading);
 }
