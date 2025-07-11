@@ -1,0 +1,97 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --font-familly-paragraph: "Poppins", sans-serif;
+  --font-family-heading: "Baloo Bhaijaan 2", cursive;
+  --header-colour: #f5f2fc;
+}
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-familly-paragraph);
+}
+.heading1 {
+  font-family: var(--font-family-heading);
+}
+nav {
+  background-color: var(--header-color);
+}
+.button button {
+  background-color: #6f42c1;
+}
+.paragraph {
+  font-family: var(--font-familly-paragraph);
+  font-size: 1.35rem;
+  text-align: start;
+  color: #78777b;
+}
+.button1 > a:first-child {
+  background-color: #6f42c1;
+  color: #fff;
+  padding: 5px 1rem;
+}
+.heading {
+  font-family: var(--font-family-heading);
+  font-size: 4rem;
+}
+.services-card {
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.section-row {
+  margin-top: 5rem;
+}
+.paragraph-1 {
+  color: #78777b;
+}
+
+.section-2 {
+  margin: 10rem 0;
+}
+.section-3 {
+  margin: 10rem 0;
+}
+.heading-1 {
+  font-family: var(--font-family-heading);
+  font-weight: 400;
+}
+.button-2 {
+  background-color: #6f42c1;
+  color: #fff;
+  padding: 5px 1rem;
+}
+.para {
+  font-size: 15px;
+}
+.bg-holder {
+  margin: 4rem auto;
+  background-image: url(./img/img/illustration/6.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section-8 {
+  background-color: var(--header-colour);
+  padding: 8rem 0;
+}
+.section-input input {
+  padding: 1rem 0.5rem;
+}
+
+footer {
+  background-color: #212240;
+}
+.linkstyle {
+  color: #78777b;
+}
+.linkstyle:hover {
+  text-decoration: underline;
+}
+.footer-paragraph {
+  color: #fff;
+}
